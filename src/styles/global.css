@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'sf-bold';
+	src: url(../assets/fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+	font-family: 'sf-black';
+	src: url(../assets/fonts/SF-Pro-Display-Black.otf);
+}
+
+@font-face {
+	font-family: 'sf-semibold';
+	src: url(../assets/fonts/SF-Pro-Display-Semibold.otf);
+}
+
+@font-face {
+	font-family: 'sf-medium';
+	src: url(../assets/fonts/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+	font-family: 'sf-regular';
+	src: url(../assets/fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+	font-family: 'sf-light';
+	src: url(../assets/fonts/SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+	font-family: 'sf-thin';
+	src: url(../assets/fonts/SF-Pro-Display-Thin.otf);
+}
+
+html,
+body,
+#content {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	background: url('../assets/imgs/day/clear/clear2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.search-container {
+	display: flex;
+	justify-content: flex-end;
+	padding: 48px 48px 0px 48px;
+}
+
+p {
+	margin: 0px;
+}
+
+.weather-info-container {
+	color: white;
+}
+
+.general-info {
+	font-family: 'sf-thin';
+	font-size: 64px;
+	text-transform: capitalize;
+}
+
+.location {
+	font-family: 'sf-regular';
+	font-size: 64px;
+}
+
+.detailed-info {
+	display: flex;
+}
+
+.temperature-celcius {
+	display: flex;
+	font-size: 138px;
+	font-family: 'sf-bold';
+}
+
+.temperature-fahrenheit {
+	display: none;
+	font-size: 138px;
+	font-family: 'sf-bold';
+}
+
+.main-temp {
+	font-size: 65px;
+}
+
+.divider {
+	width: 3px;
+	height: 115px;
+	background-color: white;
+	margin-top: 23px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.misc-info {
+	font-size: 32px;
+	margin-top: 24px;
+	font-family: 'sf-light';
+}
+
+.weather-info {
+	margin-top: 10%;
+	padding: 18px 60px 18px 60px;
+	background-color: #41414170;
+	width: max-content;
+	min-width: 30%;
+	margin-left: 4%;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.anim {
+	animation: fadeInLeft 0.8s ease-out;
+}
+
+.weather-info:hover {
+	transform: scale(1.1);
+	transition: all 0.1s ease-out;
+}
+
+.alt-temp {
+	font-size: 18px;
+}
+
+.search {
+	border: none;
+	color: white;
+	font-family: sf-regular;
+	font-size: 22px;
+	padding: 12px 1px 12px 62px;
+	border-radius: 8px;
+	background: url('../assets/imgs/search.png') no-repeat left 10px center
+		#41414170;
+	background-size: 35px;
+}
+
+.search-icon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 18.5%;
+	top: 5.1%;
+}
+
+.error {
+	display: flex;
+	visibility: hidden;
+	justify-content: flex-end;
+	padding: 8px 48px 0px 0px;
+	color: #f83737;
+	font-family: sf-medium;
+	font-size: 18px;
+}
+
+.feels-like-celcius {
+	display: block;
+}
+
+.feels-like-fahrenheit {
+	display: none;
+}
