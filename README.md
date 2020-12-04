@@ -2,7 +2,7 @@
 
 ### This is a simple weather app for keeping track of the weather conditions of different locations.
 
-<div align="center"><img src="" alt="image" width="900" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/57453561/101160757-91baf180-3655-11eb-8de7-cd260c2aa7b9.png" alt="image" width="900" /></div>
 
 **Note:** This website works best with high res screens (1080p and up). Check the [improvements section](#improvements) for future updates.
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Weather App:cloud:](https://pret3nti0u5.github.io/Weather-App)
+[Weather App :cloud:](https://pret3nti0u5.github.io/Weather-App)
 
 ## Getting Started
 
